@@ -1,26 +1,19 @@
 /* Add CSS Styling */
-.first {
-  background-color: pink;
-  font-family: verdana, "DejaVu sans", sans-serif;
-}
-#second {
-  color: blue;
-  font-size: 40px;
-  font-weight: bolder;
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.third {
-  background-color: pink;
+.adjust-font-size {
+  font-size: 24px;
+}
+
+#two {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+#four {
+  background-color: hsl(120, 100%, 75%);
   font-weight: bold;
-  font-size: 32px;
-}
-
-#fourth {
-  background-color: greenyellow;
-  font-weight: bold;
-  font-size: 32px;
-}
-
-.last {
-  background-color: pink;
 }
