@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.container .text {
+  background-color: yellow;
+  color: #e00000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* 
+  Descendant combinator (space) selects elements that are descendants
+  of the first selector. This targets .text elements inside .container.
+  
+  Alternative selector approaches:
+  - div .text (type + class selector)
+  - div p (type + type selector)
+  - .container p (class + type selector)
+*/
